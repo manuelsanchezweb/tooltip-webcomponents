@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="style.css">
+    <title>⭐️ Tooltip</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center;">⭐️ Crear Tooltips con Web Components</h1>
+      <div class="tooltip__container">
+        <p>
+          Tooltip Top
+          <tooltip-icon direction="top" message="Este es un mensaje muy top que aparece al hacer hover"></tooltip-icon>
+        </p>
+      </div>
+      <div class="tooltip__container">
+        <p>
+          Tooltip Bottom
+          <tooltip-icon direction="bottom"></tooltip-icon>
+        </p>
+      </div>
+      <div class="tooltip__container">
+        <p>
+          Tooltip Left
+          <tooltip-icon direction="left"></tooltip-icon>
+        </p>
+      </div>
+      <div class="tooltip__container">
+        <p>
+          Tooltip Right
+          <tooltip-icon direction="right"></tooltip-icon>
+        </p>
+      </div>
+    </div>
+    <script src="tooltip.js"></script>
+  </body>
+</html>
